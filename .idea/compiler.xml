@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="day09-1-HelloMavenJava" />
+        <module name="day10-1-HelloSpring01-factory" />
+        <module name="YongHe" />
+        <module name="day12-2-HelloSpring01" />
+        <module name="day09-2-HelloMyBatis" />
+        <module name="day12-2-HelloSpring01-IOC" />
+        <module name="day11-SpringMVC" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="day09-1-HelloMavenJava" target="17" />
+      <module name="day09-2-HelloMyBatis" target="17" />
+      <module name="day10-1-HelloSpring01-factory" target="17" />
+      <module name="day11-SpringMVC" target="17" />
+      <module name="day12-2-HelloSpring01" target="17" />
+      <module name="day12-2-HelloSpring01-IOC" target="17" />
+      <module name="YongHe" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

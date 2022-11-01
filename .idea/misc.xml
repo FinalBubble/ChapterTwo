@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/day09-1-HelloMavenJava/pom.xml" />
+        <option value="$PROJECT_DIR$/day09-2-HelloMyBatis/pom.xml" />
+        <option value="$PROJECT_DIR$/day10-1-HelloSpring01-factory/pom.xml" />
+        <option value="$PROJECT_DIR$/day12-2-HelloSpring01-IOC/pom.xml" />
+        <option value="$PROJECT_DIR$/day12-2-HelloSpring01/pom.xml" />
+        <option value="$PROJECT_DIR$/day11-SpringMVC/pom.xml" />
+        <option value="$PROJECT_DIR$/YongHe/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

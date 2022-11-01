@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <!--
+        浏览器可以书写一个url，访问我们的Servlet程序，当url访问Servlet时，就可以调用Servlet对应的doXXX方法，执行对应的业务逻辑
+        浏览器的url：localhost/web应用名/具体的Servlet定位符
+        web应用名：application context的值
+    -->
+    <servlet>
+        <servlet-name>HelloServlet</servlet-name>
+        <servlet-class>com.tedu.HelloServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HelloServlet</servlet-name>
+        <url-pattern>/HelloServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>HelloRequest</servlet-name>
+        <servlet-class>com.tedu.HelloRequest</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HelloRequest</servlet-name>
+        <url-pattern>/HelloRequest</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>HelloRequest</servlet-name>
+        <servlet-class>com.tedu.HelloRequest</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>HelloRequestParam</servlet-name>
+        <servlet-class>com.tedu.HelloRequestParam</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloRequestParam</servlet-name>
+        <url-pattern>/HelloRequestParam</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>JieqianServlet</servlet-name>
+        <servlet-class>com.tedu.JieqianServlet</servlet-class>
+
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>JieqianServlet</servlet-name>
+        <url-pattern>/JieqianServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Jieqian2Servlet</servlet-name>
+        <servlet-class>com.tedu.Jieqian2Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Jieqian2Servlet</servlet-name>
+        <url-pattern>/Jieqian2Servlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>HelloResponse</servlet-name>
+        <servlet-class>com.tedu.HelloResponse</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloResponse</servlet-name>
+        <url-pattern>/HelloResponse</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>HelloRedirect</servlet-name>
+        <servlet-class>com.tedu.HelloRedirect</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloRedirect</servlet-name>
+        <url-pattern>/HelloRedirect</url-pattern>
+    </servlet-mapping>
+</web-app>

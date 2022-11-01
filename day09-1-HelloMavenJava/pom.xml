@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.tedu</groupId>
+    <artifactId>day09-1-HelloMavenJava</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <!--如果使用maven下载jar包，需要jar包的坐标-->
+    <dependencies><!--多个依赖的坐标都需要写在一个dependencies标签里-->
+        <dependency><!--每个jar包都需要写在dependency标签里-->
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.32</version>
+        </dependency>
+    </dependencies>
+
+</project>
