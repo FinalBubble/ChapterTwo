@@ -2,6 +2,7 @@ package com.tedu.c3p0;
 
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 import com.tedu.util.JDBCUtils;
+import org.junit.Test;
 import org.testng.annotations.Test;
 
 import java.sql.Connection;
